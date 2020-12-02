@@ -25,3 +25,89 @@
 #container a {
   text-decoration: none;
 }
+[cards] {
+        .grid-full ion-col {
+            flex: 0 0 32%;
+            max-width: 50%;
+            padding: 0px 0px;
+            margin-top: 9px;
+            h1 {
+                color: whitesmoke;
+                //margin-top: 100px;
+                text-align: center;
+                //vertical-align: bottom;
+                margin: 0px;
+                display: block;
+                //padding-top: -5px;
+                //  font-family: sans-serif;
+                font-family: 'Comfortaa', cursive;
+                font-weight: revert;
+                font-style: normal;
+                font-size: 22px;
+            }
+            .h3 {
+  
+    color: red;
+}
+.run {
+    color: rgb(93, 199, 93);
+}
+            h3 {
+                color: whitesmoke;
+                // margin-left: 50px;
+               // margin-top: 92px;
+                 margin-top: 50px;
+                text-align: center;
+                padding: 0px;
+            }
+            ion-icon {
+                font-size: 80px;
+                margin-left: 0;
+                position: absolute;
+            }
+            .temp {
+                background-color: #28E0AE;
+            }
+            .water {
+                background-color: #5D50FE;
+            }
+            .soil {
+                background-color: #0090FF;
+            }
+            .humidity {
+                background-color: #F88F59;
+            }
+            .motor-status{
+     background-color: #263666;
+     max-height:100%;
+}
+        }
+        .row {
+            padding: 0 12px;
+        }
+        .col {
+            padding: 5px 0;
+        }
+}
+.motor-status{
+
+}
+.roundedInput {
+  --border-color: var(--ion-color-medium-shade);
+  --border-radius: 5px;
+  --border-width: 0px;
+  --box-shadow: 2px gray;
+  --highlight-height: 0;
+  --background: #f8f9fa;
+  margin-inline-start: 6px;
+   margin-inline-end: 6px;
+margin-top: 5px;
+ }
+  .validation-errors {
+        //padding-left: 20px;
+        text-align: end;
+        color: var(--ion-color-danger);
+        font-size: small;
+    }
+
+
